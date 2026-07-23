@@ -1,8 +1,27 @@
 aid: aquantia
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aquantia.png
 name: Aquantia
-description: Aquantia is a company surfaced as a portfolio company of lightspeed-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Aquantia Corporation was a fabless semiconductor company headquartered in San Jose,
+  California, that designed and marketed multi-gigabit Ethernet connectivity — AQtion
+  client network controllers, Atlantic controllers, and multi-gig PHY transceivers for
+  enterprise, data center, automotive, and consumer networking. Aquantia was acquired by
+  Marvell Technology in 2019; the aquantia.com domain now redirects to marvell.com. It
+  operated no public HTTP/developer API or developer portal — its published developer
+  surface is silicon: Linux kernel and DPDK "Atlantic" NIC drivers, firmware, and tooling
+  in the github.com/Aquantia organization. Retained in the API Evangelist network as a
+  historical portfolio-lead stub; there is no API to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/aquantia/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +29,31 @@ x-backed-by:
 - lightspeed-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: marvell
+x-acquired-year: 2019
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Semiconductors
+- Networking
+- Ethernet
+- Hardware
+- Connectivity
+- Acquired
 apis: []
+common:
+- type: GitHubOrganization
+  url: https://github.com/Aquantia
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
