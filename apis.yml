@@ -56,6 +56,11 @@ tags:
 - Acquired
 apis: []
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/marvell-technology/
+  name: Marvell Technology
+  x-relationship: acquired
+  x-evidence: "Aquantia was acquired by Marvell Technology in 2019; the aquantia."
 - type: GitHubOrganization
   url: https://github.com/Aquantia
 maintainers:
